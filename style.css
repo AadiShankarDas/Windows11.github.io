@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #d8def4;
+    height: 44px;
+    z-index: 110;
+}
+.right{
+    position: absolute;
+    right: 0;
+    height: 102%;
+}
+.startmenu img{
+    border-radius: 9px;
+}
+.startmenu{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -792px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
+.file{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -792px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
+.file img{
+    height: 520px;  
+    border-radius: 4px;
+}
+.edgebr{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -792px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
+.edgebr img{
+    height: 520px;  
+    border-radius: 4px;
+}
+.search{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -792px; 
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
+.search img{
+    height: 520px;  
+    border-radius: 4px;
+}
+.store{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -792px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
+.store img{
+    height: 520px;  
+    border-radius: 4px;
+}
+.sbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.startbtn{
+    height: 25px;
+    border-radius: 3px;
+}
+.filebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 9px;
+}
+.filebtn img{
+    height: 28px;
+}
+.edgebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 6px;
+}
+.edgebtn img{
+    height: 26px;
+}
+.searchbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 6px;
+}
+.searchbtn img{
+    height: 26px;
+}
+.storebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 6px;
+}
+.storebtn img{
+    height: 26px;
+}
+
+.deskicon{
+    margin-left: 28px;
+    margin-top: 23px;
+    display: inline-grid;
+}
+.thispc{
+    display: inline-grid;
+    margin-bottom: 18px;
+}
+.rbin{
+    display: inline-grid;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.thispc img{
+    height: 55px;
+}
+.rbin img{
+    height: 55px;
+}
